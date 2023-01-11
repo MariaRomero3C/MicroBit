@@ -5,10 +5,4 @@ from microbit import *
 nombre = "Maria"
 apellido = "Romero"
 
-while True:
-    if button_a.was_pressed():
-        nombre
-        display.scroll(nombre)
-    if button_b.was_pressed():
-        apellido     
-        display.scroll(apellido)       
+display.scroll(nombre +" "+ apellido, wait=False, loop= True, delay= 60)    
