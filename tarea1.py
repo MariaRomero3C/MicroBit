@@ -5,4 +5,4 @@ from microbit import *
 nombre = "Maria"
 apellido = "Romero"
 
-display.scroll(nombre +" "+ apellido, wait=False, loop= True, delay= 60)    
+display.scroll(nombre +" "+ apellido, wait=False, loop= True, delay= 80)    
