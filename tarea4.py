@@ -1,14 +1,19 @@
 from microbit import *
 
-n = 1
-borde = Image("09990:09990:00900:09990:59095")
-interior = Image("59095:09990:00900:09990:09990")
-while n<= 6:
-    if n %2 == 0:
-        display.show(borde)
-    else:
-        display.show(interior)
-    sleep(600)
-    n += 1
+dibujo1 = Image("90909:09090:00900:09090:90909")
+dibujo2 = Image("90909:90909:09090:00900:09090")
+dibujo3 = Image("09090:90909:90909:09090:00900")
+dibujo4 = Image("00900:09090:90909:90909:09090")
+dibujo5 = Image("09090:00900:09090:90909:90909")
 
-display.show(Image.HAPPY)
+while True:
+    display.show(dibujo1)
+    sleep(500)
+    display.show(dibujo2)
+    sleep(500)
+    display.show(dibujo3)
+    sleep(500)
+    display.show(dibujo4)
+    sleep(500)
+    display.show(dibujo5)
+    sleep(500)
