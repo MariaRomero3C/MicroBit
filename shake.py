@@ -7,4 +7,4 @@ while True:
         display.show(random.randint(0,10))
         sleep(1000)
     else:
-        display.show(Image.GHOST)
+        display.show(Image.HEART)
