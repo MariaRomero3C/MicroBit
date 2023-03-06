@@ -3,7 +3,7 @@ from microbit import *
 import music
 
 i = 0
-sonidos = ['b7:20','a7:20','g7:20','f7:20']
+sonidos = ['b7:20','a7:20','g7:20','f7:20','e7:20','d7:20','c7:20']
 
 while True:
     if button_a.get_presses():
