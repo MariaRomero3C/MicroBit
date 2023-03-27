@@ -9,4 +9,4 @@ while True:
     elif button_b.was_pressed():
         robot.motor(-255,-255)
     else:
-        display.scroll("Hola")
+        display.show(Image.HAPPY)
